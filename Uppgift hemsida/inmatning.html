@@ -37,22 +37,25 @@
     <main>
 
         <section class="sectionTop">
-            <h1>Välkommen till STK</h1>
+            <h1>Lägg till och/eller ta bort filmtitlar</h1>
             <img src="media/logo-tv-black.png" alt="">
-            <p>
-                Hej!
-                <br>
-                <br>
-                I toppmenyn kan du söka på filmtitel och få fram information om våra program.
-                <br>
-                Nedanför ser du sökresultatet
-            </p>
+        </section>
 
-        </section>
-            
         <section class="sectionMiddle">
-            <p>Sökresultat:</p>
+            <p>Lägg till en ny film</p>
+            <input type="text" id="inputTitle" required placeholder="Filmens titel">
+            <textarea name="" id="inputDescription" cols="30" rows="10"
+                required placeholder="Kort beskrivning om filmen"></textarea>
+            <input type="text" id="inputAge" required placeholder="Åldergräns">
+            <button id="buttonTitle">Lägg till filmtitel</button>
+            <p>
+                <br>
+                Se lista på befintliga filmer eller ta bort hela listan
+            </p>
+            <button id="buttonData">Visa Data</button>
+            <button id="buttonClear">Rensa Data</button>
         </section>
+
 
     </main>
 

@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    min-width: 600px;
+    background-color: mintcream;
+    font-size: large;
+
+    header {
+        display: flex;
+        background-color: mintcream;
+        padding: 2px;
+
+        nav {
+            display: flex;
+            width: 100%;
+
+            .leftNav {
+                display: flex;
+                justify-content: space-evenly;
+                width: 25%;
+                padding: 2px;
+            }
+
+            .middleNav {
+                display: flex;
+                justify-content: center;
+                width: 50%;
+                padding: 2px;
+                gap: 2px;
+
+
+                #searchField {
+                    width: 40%;
+                    font-size: large;
+                }
+
+                #searchButton {
+                    width: auto;
+
+                }
+
+                :hover {
+                    cursor: pointer;
+                }
+            }
+
+            .rightNav {
+                display: flex;
+                justify-content: center;
+                width: 25%;
+                padding: 2px;
+            }
+        }
+    }
+
+    main {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px;
+            border-style: solid;
+            background-color: white;
+            text-align: center;
+            padding: 15px;
+            width: fit-content;
+            min-width: 600px;
+
+            #inputTitle,
+            #inputDescription,
+            #inputAge {
+                min-width: 210px;
+                margin: 5px;
+            }
+
+            #buttonTitle,
+            #buttonData,
+            #buttonClear {
+                min-width: 125px;
+                margin: 5px;
+            }
+        }
+    }
+}
+
+img {
+    width: 50px;
+}
