@@ -12,6 +12,7 @@
 </head>
 
 <body>
+
     <!-- Header - menyval och sökruta-->
     <header>
         <nav>
@@ -39,25 +40,52 @@
         <section class="sectionTop">
             <h1>Lägg till och/eller ta bort filmtitlar</h1>
             <img src="media/logo-tv-black.png" alt="">
+            <p>
+                <br>
+                <br>
+                Hej!
+                <br>
+                <br>
+                Här kan du som administratör lägga till nya filmer.
+                <br>
+                Eller visa sparade filmer (alternativt ta bort filmer).
+            </p>
         </section>
 
         <section class="sectionMiddle">
-            <p>Lägg till en ny film</p>
+            <p>
+                <strong>
+                    Lägg till en ny film
+                </strong>
+            </p>
             <input type="text" id="inputTitle" required placeholder="Filmens titel">
-            <textarea name="" id="inputDescription" cols="30" rows="10"
-                required placeholder="Kort beskrivning om filmen"></textarea>
+            <textarea name="" id="inputDescription" cols="30" rows="10" required
+                placeholder="Kort beskrivning om filmen"></textarea>
             <input type="text" id="inputAge" required placeholder="Åldergräns">
-            <button id="buttonTitle">Lägg till filmtitel</button>
+            <button id="buttonSave">Spara</button>
             <p>
                 <br>
-                Se lista på befintliga filmer eller ta bort hela listan
+                <strong>
+                    Se lista på sparade filmer:
+                </strong>
             </p>
-            <button id="buttonData">Visa Data</button>
-            <button id="buttonClear">Rensa Data</button>
+            <button id="buttonList">Visa lista</button>
+            <p>
+                <br>
+                <strong>
+                    OBS!
+                    <br>
+                    Knappen nedan rensar hela
+                    <br>
+                    listan med sparade filmer
+                </strong>
+            </p><button id="buttonDelete">Rensa Data</button>
         </section>
 
-
     </main>
+
+    <!-- Script -->
+    <script src="scripts/script.js"></script>
 
 </body>
 

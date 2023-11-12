@@ -1,19 +1,18 @@
 body {
     display: flex;
     flex-direction: column;
-    width: fit-content;
     min-width: 600px;
-    background-color: mintcream;
+    background-color: white;
     font-size: large;
 
     header {
         display: flex;
-        background-color: mintcream;
+        justify-content: center;
         padding: 2px;
 
         nav {
             display: flex;
-            width: 100%;
+            width: 600px;
 
             .leftNav {
                 display: flex;
@@ -66,12 +65,12 @@ body {
             align-items: center;
             border: 1px;
             border-style: solid;
-            background-color: white;
+            background-color: mintcream;
             text-align: center;
             padding: 15px;
             width: fit-content;
             min-width: 600px;
-
+            
             #inputTitle,
             #inputDescription,
             #inputAge {
@@ -82,7 +81,7 @@ body {
             #buttonTitle,
             #buttonData,
             #buttonClear {
-                min-width: 125px;
+                min-width: 75px;
                 margin: 5px;
             }
         }
