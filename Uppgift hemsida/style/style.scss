@@ -30,12 +30,15 @@ body {
 
 
                 #searchField {
-                    width: 40%;
+                    width: 60%;
                     font-size: large;
+                    border-radius: 5px;
+                    text-align: center;
                 }
 
                 #searchButton {
                     width: auto;
+                    font-size: large;
 
                 }
 
@@ -59,17 +62,20 @@ body {
         flex-direction: column;
         align-items: center;
         
+        
         section {
             display: flex;
             flex-direction: column;
             align-items: center;
             border: 1px;
             border-style: solid;
+            border-radius: 15px;
             background-color: mintcream;
             text-align: center;
             padding: 15px;
             width: fit-content;
             min-width: 600px;
+            margin-bottom: 10px;
             
             #inputTitle,
             #inputDescription,

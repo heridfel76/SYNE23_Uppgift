@@ -28,7 +28,7 @@
                 <button id="searchButton">Sök</button>
             </div>
             <div class="rightNav">
-                <a href="inmatning.html">INMATNING</a>
+                <a href="inmatning.html">ADMIN</a>
             </div>
         </nav>
     </header>
@@ -45,18 +45,33 @@
                 Hej!
                 <br>
                 <br>
-                I toppmenyn kan du söka på filmtitel och få fram information om våra program.
+                I toppmenyn kan du söka på titel och få fram information om våra tv-program.
                 <br>
                 Nedanför ser du sökresultatet.
             </p>
 
         </section>
-            
+
         <section class="sectionMiddle">
-            <p>Sökresultat:</p>
+            <p>Våra tv-program:</p>
+
+            <div class="movieCollections" movieCollections></div>
+
         </section>
 
     </main>
+
+    <!-- En template som används för att klona nya divs till varje tillagd film -->
+    <template movieTemplate>
+        <div class="movie">
+            <div class="title" title></div>
+            <div class="dexription" description></div>
+            <div clas="age_limit" age_limit></div>
+        </div>
+    </template>
+
+    <!-- Script -->
+    <script src="scripts/index.js"></script>
 
 </body>
 

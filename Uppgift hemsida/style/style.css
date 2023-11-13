@@ -28,11 +28,14 @@ body header nav .middleNav {
   gap: 2px;
 }
 body header nav .middleNav #searchField {
-  width: 40%;
+  width: 60%;
   font-size: large;
+  border-radius: 5px;
+  text-align: center;
 }
 body header nav .middleNav #searchButton {
   width: auto;
+  font-size: large;
 }
 body header nav .middleNav :hover {
   cursor: pointer;
@@ -55,12 +58,14 @@ body main section {
   align-items: center;
   border: 1px;
   border-style: solid;
+  border-radius: 15px;
   background-color: mintcream;
   text-align: center;
   padding: 15px;
   width: -moz-fit-content;
   width: fit-content;
   min-width: 600px;
+  margin-bottom: 10px;
 }
 body main section #inputTitle,
 body main section #inputDescription,

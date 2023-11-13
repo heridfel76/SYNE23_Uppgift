@@ -29,7 +29,7 @@
                 <button id="searchButton">Sök</button>
             </div>
             <div class="rightNav">
-                <a href="inmatning.html">INMATNING</a>
+                <a href="inmatning.html">ADMIN</a>
             </div>
         </nav>
     </header>
@@ -38,7 +38,7 @@
     <main>
 
         <section class="sectionTop">
-            <h1>Lägg till och/eller ta bort filmtitlar</h1>
+            <h1>Lägg till och/eller ta bort tv-program</h1>
             <img src="media/logo-tv-black.png" alt="">
             <p>
                 <br>
@@ -48,17 +48,17 @@
                 <br>
                 Här kan du som administratör lägga till nya filmer.
                 <br>
-                Eller visa sparade filmer (alternativt ta bort filmer).
+                Eller visa sparade tv-program (alternativt ta bort tv-program).
             </p>
         </section>
 
         <section class="sectionMiddle">
             <p>
                 <strong>
-                    Lägg till en ny film
+                    Lägg till en nytt tv-program
                 </strong>
             </p>
-            <input type="text" id="inputTitle" required placeholder="Filmens titel">
+            <input type="text" id="inputTitle" required placeholder="titel">
             <textarea name="" id="inputDescription" cols="30" rows="10" required
                 placeholder="Kort beskrivning om filmen"></textarea>
             <input type="text" id="inputAge" required placeholder="Åldergräns">
@@ -66,7 +66,7 @@
             <p>
                 <br>
                 <strong>
-                    Se lista på sparade filmer:
+                    Lista på sparade tv-program:
                 </strong>
             </p>
             <button id="buttonList">Visa lista</button>
@@ -77,15 +77,15 @@
                     <br>
                     Knappen nedan rensar hela
                     <br>
-                    listan med sparade filmer
+                    listan med sparade tv-program
                 </strong>
-            </p><button id="buttonDelete">Rensa Data</button>
+            </p><button id="buttonDelete">Rensa lista</button>
         </section>
-
+        
     </main>
 
     <!-- Script -->
-    <script src="scripts/script.js"></script>
+    <script src="scripts/inmatning.js"></script>
 
 </body>
 
