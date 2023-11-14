@@ -12,8 +12,10 @@
 </head>
 
 <body>
-    <!-- Header - menyval och sökruta-->
+
+    <!-- Header - menyval-->
     <header>
+
         <nav>
             <div class="leftNav">
                 <div>
@@ -27,6 +29,7 @@
                 <a href="inmatning.html">(ADMIN)</a>
             </div>
         </nav>
+
     </header>
 
     <!-- Huvudinnehållet på sidan -->
@@ -51,9 +54,10 @@
         <section class="sectionMiddle">
             <p><strong>Sök bland våra filmer:</strong></p>
             <div>
-                <input type="text" id="searchField" placeholder="sök">
+                <input type="search" id="searchField" placeholder="sök" movieSearch>
             </div>
 
+            <!-- I denna div skapas kloner -->
             <div class="movieCollections" movieCollections></div>
 
         </section>

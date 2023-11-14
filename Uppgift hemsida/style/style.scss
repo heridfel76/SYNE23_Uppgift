@@ -61,7 +61,7 @@ body {
             align-items: center;
             border: 1px;
             border-style: solid;
-            border-radius: 15px;
+            border-radius: 10px;
             background-color: mintcream;
             text-align: center;
             padding: 15px;
@@ -127,4 +127,8 @@ body {
 
 img {
     width: 75px;
+}
+
+.hide {
+    display: none;
 }
