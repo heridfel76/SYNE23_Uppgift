@@ -17,18 +17,14 @@
         <nav>
             <div class="leftNav">
                 <div>
-                    <a href="index.html">HEM</a>
+                    <a href="index.html">(HEM)</a>
                 </div>
-                <!-- <div>
-                    <a href="search.html">SÖKRESULTAT</a>
-                </div> -->
             </div>
             <div class="middleNav">
-                <input type="text" id="searchField" placeholder="Sök på titel">
-                <button id="searchButton">Sök</button>
+                <p class="name">STATLIGA TELEVISIONSKANALEN</p>
             </div>
             <div class="rightNav">
-                <a href="inmatning.html">ADMIN</a>
+                <a href="inmatning.html">(ADMIN)</a>
             </div>
         </nav>
     </header>
@@ -45,15 +41,18 @@
                 Hej!
                 <br>
                 <br>
-                I toppmenyn kan du söka på titel och få fram information om våra tv-program.
+                Nedan kan du se våra filmer,
                 <br>
-                Nedanför ser du sökresultatet.
+                och även söka bland våra filmer.
             </p>
 
         </section>
 
         <section class="sectionMiddle">
-            <p>Våra tv-program:</p>
+            <p><strong>Sök bland våra filmer:</strong></p>
+            <div>
+                <input type="text" id="searchField" placeholder="sök">
+            </div>
 
             <div class="movieCollections" movieCollections></div>
 
@@ -65,8 +64,8 @@
     <template movieTemplate>
         <div class="movie">
             <div class="title" title></div>
-            <div class="dexription" description></div>
-            <div clas="age_limit" age_limit></div>
+            <div class="description" description></div>
+            <div class="age_limit" age_limit></div>
         </div>
     </template>
 
