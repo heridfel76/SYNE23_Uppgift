@@ -4,9 +4,9 @@ document.getElementById('buttonList').addEventListener('click', showMovies);
 document.getElementById('buttonDelete').addEventListener('click', deleteMovies);
 
 
-// Funktioner //
+// FUNKTONER //
 
-//Spara film till localStorage.
+// Spara film till localStorage.
 function saveMovie() {
 
     // Konstanter för de tre fälten.
@@ -62,6 +62,7 @@ function showMovies() {
     }
 }
 
+// Raderar alla filmer från localStorage
 function deleteMovies() {
     let text = "Vill du verkligen radera alla filmer?\n\nTryck på OK för att radera.\nTryck på avbryt för att ångra.";
     if (confirm(text) == true) {
