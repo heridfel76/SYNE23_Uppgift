@@ -6,8 +6,9 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hem</title>
+    <title>STK - Filmer</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="media/logo-tv-black.png">
 
 </head>
 
@@ -26,7 +27,7 @@
                 <p class="name">STATLIGA TELEVISIONSKANALEN</p>
             </div>
             <div class="rightNav">
-                <a href="inmatning.html">(ADMIN)</a>
+                <a href="admin.html">(ADMIN)</a>
             </div>
         </nav>
 
@@ -44,15 +45,18 @@
                 Hej!
                 <br>
                 <br>
-                Nedan kan du se våra filmer,
-                <br>
-                och även söka bland våra filmer.
+                Nedan kan du se vårt utbud på filmer.
             </p>
 
         </section>
 
         <section class="sectionMiddle">
-            <p><strong>Sök bland våra filmer:</strong></p>
+            <p>
+                <strong>Sök bland våra filmtitlar:</strong>
+                <br>
+                Du kan även söka på ord i filmbeskrivningarna
+            </p>
+            
             <div>
                 <input type="search" id="searchField" placeholder="sök" movieSearch>
             </div>
@@ -64,7 +68,7 @@
 
     </main>
 
-    <!-- En template som används för att klona nya divs till varje tillagd film -->
+    <!-- En template som används för att klonas till nya divs för varje nytillagd film -->
     <template movieTemplate>
         <div class="movie">
             <div class="title" title></div>
